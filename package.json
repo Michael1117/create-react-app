@@ -1,0 +1,24 @@
+{
+  "name": "create_react_app_study",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "description": "- monorepo是项目代码的一个方式，指在一个项目仓库(repo)中管理多个模块/包(package)\r - monorepo最主要的好处是统一的工作流和代码共享\r - Lerna是一个管理多个npm模块的工具，优化维护多包的工作流，解决多个包互相依赖，且发布需要手动维护多个包的问题\r - yarn",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cross-spawn": "^7.0.3",
+    "fs-extra": "^9.0.1"
+  }
+}
